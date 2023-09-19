@@ -1,4 +1,5 @@
 import random as rnd
+print('Moduł do generowania sprawdzianów z systemów liczbowych')
 plik = open("kartkowka.txt", "w")
 for i in range(26):
     plik.write("Grupa " + chr(i + 65) + "\n\nWykonaj podane konwersje między systemami liczbowymi:\n\n")
